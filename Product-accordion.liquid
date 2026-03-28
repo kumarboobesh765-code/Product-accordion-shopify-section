@@ -1,0 +1,173 @@
+<div class="accordion-wrapper">
+  <div class="custom-accordion">
+
+    <!-- BENEFITS -->
+    <details>
+      <summary>BENEFITS</summary>
+      <div class="content">
+        <p><strong>1. Builds Strong Immunity</strong><br>
+        Rich in antioxidants and natural enzymes, it strengthens your body’s defenses and supports overall wellness.</p>
+
+        <p><strong>2. Promotes Digestive Health</strong><br>
+        Its prebiotic nature nourishes gut-friendly bacteria, helping improve digestion and nutrient absorption.</p>
+
+        <p><strong>3. Natural Energy Booster</strong><br>
+        A wholesome source of instant energy that keeps you active and refreshed without refined sugar or additives.</p>
+
+        <p><strong>4. Enhances Skin Glow</strong><br>
+        Known for its antibacterial and moisturizing properties, it keeps your skin radiant, hydrated, and youthful.</p>
+
+        <p><strong>5. Supports Weight Balance</strong><br>
+        When taken with warm water, it helps improve metabolism and aids in natural weight management.</p>
+
+        <p><strong>6. 100% Raw, Unfiltered & NMR Tested</strong><br>
+        Sourced directly from wild Gir flora, every drop is unprocessed and NMR tested for purity.</p>
+      </div>
+    </details>
+
+    <!-- INGREDIENTS -->
+    <details>
+      <summary>INGREDIENTS & NUTRITION</summary>
+      <div class="content">
+        <p><strong>100% Organic Honey</strong></p>
+        <p>No Preservatives | No Added Flavours | No Added Sugar | No Added Colors</p>
+      </div>
+    </details>
+
+    <!-- MAKING PROCESS -->
+    <details>
+      <summary>MAKING PROCESS</summary>
+      <div class="content">
+        <p><strong>1. From the Heart of Gir Forests</strong><br>
+        Bees collect nectar from the wild blossoms of Gir’s rich flora.</p>
+
+        <p><strong>2. Naturally Crafted by Bees</strong><br>
+        Nectar is transformed into honey inside natural honeycombs.</p>
+
+        <p><strong>3. Harvested with Care</strong><br>
+        Honeycombs are collected without harming bees or hives.</p>
+
+        <p><strong>4. Cold-Extracted & Unprocessed</strong><br>
+        Extracted naturally without heat to preserve nutrients.</p>
+
+        <p><strong>5. Bottled in Its Purest Form</strong><br>
+        NMR tested and packed in eco-friendly jars.</p>
+      </div>
+    </details>
+
+    <!-- STORAGE -->
+    <details>
+      <summary>STORAGE</summary>
+      <div class="content">
+        <p>Store in a cool & dry place.</p>
+      </div>
+    </details>
+
+    <!-- SHIPPING -->
+    <details>
+      <summary>SHIPPING & RETURN POLICY</summary>
+      <div class="content">
+        <p>We want you to love every drop of your purchase.</p>
+
+        <p>If your order arrives damaged, leaked, or incorrect, please email us at loveofgir@gmail.com within 48 hours with photos.</p>
+
+        <ul>
+          <li>Returns accepted within 7 days (sealed products only)</li>
+          <li>Full refund/replacement for damaged items</li>
+          <li>Opened products cannot be returned</li>
+          <li>Refund processed in 7–10 working days</li>
+          <li>COD refunds via bank transfer</li>
+        </ul>
+
+        <p>Your happiness means the world to us ❤️</p>
+      </div>
+    </details>
+
+  </div>
+</div>
+
+<style>
+.accordion-wrapper {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.custom-accordion {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.custom-accordion details {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 14px 18px;
+}
+
+.custom-accordion details:last-child {
+  border-bottom: none;
+}
+
+.custom-accordion summary {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #2f3e2f;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-accordion summary::after {
+  content: "+";
+  font-size: 18px;
+}
+
+.custom-accordion details[open] summary::after {
+  content: "−";
+}
+
+.custom-accordion .content {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.7;
+}
+
+.custom-accordion p {
+  margin-bottom: 10px;
+}
+
+.custom-accordion ul {
+  padding-left: 18px;
+}
+
+.custom-accordion li {
+  margin-bottom: 6px;
+}
+
+.custom-accordion summary:hover {
+  color: #1b5e20;
+}
+
+@media (max-width: 768px) {
+  .custom-accordion summary {
+    font-size: 12px;
+  }
+}
+</style>
+
+{% schema %}
+{
+  "name": "Product Accordion",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Product Accordion"
+    }
+  ]
+}
+{% endschema %}
